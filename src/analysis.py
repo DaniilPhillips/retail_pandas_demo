@@ -15,7 +15,6 @@ If you have internet and want the full dataset from UCI, uncomment download bloc
 import matplotlib
 matplotlib.use('Agg')
 import pandas as pd, numpy as np, matplotlib.pyplot as plt, os, sys
-from datetime import datetime
 
 INPUT = os.path.join(os.path.dirname(__file__), '..', 'data', 'sample_online_retail.csv')
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), '..', 'output')
